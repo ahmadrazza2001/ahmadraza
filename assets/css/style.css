@@ -647,7 +647,8 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: rgba(13, 13, 13, 0.9);
+  border-radius: 15px;
   transition: 0.3s;
   z-index: 999;
 }
@@ -661,18 +662,22 @@ a:hover {
 .navbar-mobile ul {
   display: block;
   position: absolute;
+  color: white;
   top: 55px;
+  height: 50%;
   right: 15px;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #141414;
+  border-radius: 15px;
   overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile>ul>li {
   padding: 0;
+  color: white;
 }
 
 .navbar-mobile a:hover:before,
